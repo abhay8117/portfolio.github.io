@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 from flask import Flask, render_template, request, url_for,flash
 from flask_sqlalchemy import SQLAlchemy
@@ -57,4 +58,17 @@ def send_email(subject, message, sender_email):
 
 
 if __name__=='__main__':
-    app.run(debug=True)
+=======
+
+from flask import Flask, render_template,url_for
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return render_template('index.html')
+
+
+if __name__=='__main__':
+>>>>>>> 3e2c52720fe9e88ba6dafd9327fd200f12188559
+    app.run()
