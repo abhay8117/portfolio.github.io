@@ -1,1 +1,1 @@
-web: yarn start:portfolio.py
+web: yarn start:production
