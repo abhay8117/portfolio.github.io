@@ -1,1 +1,1 @@
-web: yarn start:production
+gunicorn app:app & python3 portfolio.py
